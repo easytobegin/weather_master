@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/rc/31.jpg);</string>
+  </property>
+  <widget class="QComboBox" name="provinces">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/3314.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="citys">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>110</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/3314.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCity">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>410</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);</string>
+   </property>
+   <property name="text">
+    <string>LOGO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="queryButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>110</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/712120930.jpg);</string>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="recomand">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>561</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="advice">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>380</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 12pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="weather_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>620</y>
+     <width>751</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+font: italic 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelWind_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>350</y>
+     <width>251</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>西风4-5级转西北风4-5级</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelWeather_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>310</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string> 小雨转阴</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelImage3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>300</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);</string>
+   </property>
+   <property name="text">
+    <string>image3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelImage4">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>300</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);</string>
+   </property>
+   <property name="text">
+    <string>image4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTemperature_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>270</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>20℃/27℃</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelImage1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>300</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);</string>
+   </property>
+   <property name="text">
+    <string>image1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelWind">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>西风4-5级转西北风4-5级</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTemperature">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string>20℃/27℃</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelWeather">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>181</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);
+text-decoration: underline;
+font: 9pt &quot;04b_21&quot;;
+font: 75 11pt &quot;幼圆&quot;;</string>
+   </property>
+   <property name="text">
+    <string> 小雨转阴</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelImage2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>300</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rc/2115507.jpg);</string>
+   </property>
+   <property name="text">
+    <string>image2</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
